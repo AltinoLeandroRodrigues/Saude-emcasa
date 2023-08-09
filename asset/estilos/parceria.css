@@ -1,0 +1,29 @@
+.parceiros{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    background-color:#F4F7FC;
+    padding: 20px;
+}
+.parceiros img{
+    width: 200px;
+    height: 100px;
+}
+
+.parceiros-pai hr{
+    width: 40%;
+    margin: auto;
+    height: 3px ;
+    border: none;
+    background-color: #014DAB;
+   
+    margin-bottom: 60px;
+}
+.parceiros-pai h1{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
