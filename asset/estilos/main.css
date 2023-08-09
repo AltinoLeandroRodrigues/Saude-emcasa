@@ -2,6 +2,7 @@
 main figure{
     width: 100%;
     height: 500px;
+    margin-top: 40px;
 }
 main figure img{
     width: 100%;

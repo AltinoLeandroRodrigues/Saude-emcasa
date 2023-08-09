@@ -1,0 +1,36 @@
+.ajuda{
+    margin-top: 25px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.ajuda h1{
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.ajuda ul li{
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    font-size: 17px;
+}
+
+.ajuda ul {
+     list-style: none;
+     opacity: 0.7;
+}
+
+.ajuda hr{
+    width: 40%;
+    margin: auto;
+    height: 3px;
+    background-color:#014DAB;
+    border: none;
+}
