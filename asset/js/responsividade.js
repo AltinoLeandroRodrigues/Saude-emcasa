@@ -8,3 +8,4 @@ function  clicar(){
         Menu.classList.add('active')
     }
 }
+

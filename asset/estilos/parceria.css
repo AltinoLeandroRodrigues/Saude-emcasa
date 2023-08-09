@@ -10,6 +10,11 @@
 .parceiros img{
     width: 200px;
     height: 100px;
+    filter: grayscale(100%);
+    transition: filter 1s ease-in;
+}
+.parceiros img:hover{
+    filter: grayscale(0);
 }
 
 .parceiros-pai hr{
