@@ -1,0 +1,12 @@
+/* nav responsividade */
+@media (max-width:750px){
+    nav{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        right: 0;
+    }
+    #btn{
+        display: block;
+    }
+}

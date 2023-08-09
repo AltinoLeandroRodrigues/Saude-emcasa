@@ -1,0 +1,10 @@
+/* estilização da imagem do paciente */
+main figure{
+    width: 100%;
+    height: 500px;
+}
+main figure img{
+    width: 100%;
+    height: 500px;
+}
+/* fim da estilização da imagem do paciente */
