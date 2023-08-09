@@ -1,4 +1,5 @@
-.ajuda{
+.missao{
+    background-color: #F4F7FC;
     margin-top: 25px;
     display: block;
     align-items: center;
@@ -6,14 +7,14 @@
     padding: 10px;
 }
 
-.ajuda h1{
+.missao h1{
     text-align: center;
     color: black;
     font-size: 30px;
     margin-top: 10px;
 }
 
-.ajuda ul li{
+.missao ul li{
     text-align: center;
     color: black;
     font-size: 16px;
@@ -22,11 +23,11 @@
     opacity: 0.7;
 }
 
-.ajuda ul {
+.missao ul {
      list-style: none;
 }
 
-.ajuda hr{
+.missao hr{
     width: 40%;
     margin: auto;
     height: 3px;
