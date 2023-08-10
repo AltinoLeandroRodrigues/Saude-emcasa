@@ -1,19 +1,19 @@
-.ajuda{
+.serviços{
     margin-top: 25px;
-    display: block;
+    display: flex;
     align-items: center;
     justify-content: center;
     padding: 10px;
 }
 
-.ajuda h1{
+.serviços h1{
     text-align: center;
     color: black;
     font-size: 30px;
     margin-top: 10px;
 }
 
-.ajuda ul li{
+.serviços ul li{
     text-align: center;
     color: black;
     font-size: 16px;
@@ -22,14 +22,30 @@
     opacity: 0.7;
 }
 
-.ajuda ul {
+.serviços ul {
      list-style: none;
 }
 
-.ajuda hr{
+.serviços hr{
     width: 40%;
     margin: auto;
     height: 3px;
     background-color:#014DAB;
     border: none;
 }
+
+.trabalhos{
+    background-color: #ddd;
+    border: 1px solid blue;
+    border-radius: 5px;
+    padding: 30px;
+}
+.trabalhos ul{
+    list-style-type: '✔️';
+}
+.trabalhos ul li{
+     text-align: justify;
+     margin-top: 20px;
+}
+ 
+ 
