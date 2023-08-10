@@ -1,0 +1,28 @@
+.recomendacao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.recomendacao h1{
+     text-align: center;
+}
+
+.recomendacao p{
+    text-indent: 20px;
+}
+
+.recomendacao .card3{
+    border: 1px solid #014DAB;
+    border-radius: 5px;
+    width: 40%;
+    padding: 20px;
+     
+}
+.recomendacao .card3 img{
+     width: 100%;
+     height: 300px;
+     margin: auto;
+}
