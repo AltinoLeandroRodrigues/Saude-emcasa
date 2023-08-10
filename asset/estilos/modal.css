@@ -10,11 +10,12 @@
 }
  
 .modal   button{
-  top: 15px;
+  top: 500px;
   cursor: pointer;
-  left: 850px;  
-  position: fixed;
+  left: 500px;  
+  position: absolute;
   border: none;
   background-color: transparent;
   font-size: 30px;
+  margin: auto;
 }
