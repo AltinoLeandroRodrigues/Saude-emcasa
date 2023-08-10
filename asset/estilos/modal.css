@@ -8,10 +8,7 @@
     justify-content: center;
     align-items: center;
 }
-.modal iframe{
-   width: 500px;
-   height: 1000px;
-}
+ 
 .modal   button{
   top: 15px;
   cursor: pointer;
