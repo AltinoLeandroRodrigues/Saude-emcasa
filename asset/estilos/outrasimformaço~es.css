@@ -36,3 +36,11 @@
 .outras a:hover{
     opacity: 0.7;
 }
+
+@media (max-width:750px) {
+  .outras .partes{
+    width: 50%;
+}
+
+  
+}
