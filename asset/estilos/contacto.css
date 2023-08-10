@@ -1,0 +1,105 @@
+.Contactos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+
+
+.numeros{
+    border-top: 2px solid #014DAB;
+    border-bottom: 2px solid #014DAB;
+    margin-bottom: 20px;
+    background-color: #ddd;
+    padding: 10px;
+    width: 35%;
+}
+
+
+.numeros iframe{
+    width: 100%;
+    height: 300px;
+}
+
+
+
+.email{
+    border-top: 2px solid #014DAB;
+    border-bottom: 2px solid #014DAB;
+    margin-bottom: 20px;
+    background-color: #ddd;
+    padding: 20px;
+    width: 50%;
+}
+
+
+.email #nome{
+   width: 80%;
+   height: 30px;
+   outline: none;
+   margin-bottom: 20px;
+}
+
+
+.email #assunto{
+   width: 100%;
+   height: 30px;
+   resize: none;
+   outline: none;
+   margin-bottom: 18px;
+}
+
+
+.email #mensagem{
+   width: 100%;
+   height: 200px;
+    resize: none;
+    outline: none;
+}
+
+
+.email label{
+    font-size: 20px;
+    margin-left: 2px;
+}
+.btns{
+    width: 20%;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+    float: right;
+    background-color: #4e7ed1;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.5s ease-in ;
+}
+.btns:hover{
+    background-color: #014DAB;
+    color: white;
+}
+
+/* responsividade */
+
+@media (max-width:750px) {
+    .numeros{
+        border-top: 2px solid #014DAB;
+        border-bottom: 2px solid #014DAB;
+        margin-bottom: 20px;
+        background-color: #ddd;
+        padding: 20px;
+        width: 80%;
+    }
+    .email{
+        border-top: 2px solid #014DAB;
+        border-bottom: 2px solid #014DAB;
+        margin-bottom: 20px;
+        background-color: #ddd;
+        padding: 20px;
+        width: 80%;
+    }
+    
+}
