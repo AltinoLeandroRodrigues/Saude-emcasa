@@ -72,6 +72,7 @@ header figure {
 header figure img {
     width: 150px;
     height: 55px;
+    object-fit: cover;
 }
 
 /* fim de  estilização do logo */
