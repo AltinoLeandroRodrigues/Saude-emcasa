@@ -12,6 +12,7 @@
     height: 100px;
     filter: grayscale(100%);
     transition: filter 1s ease-in;
+    object-fit: cover;
 }
 .parceiros img:hover{
     filter: grayscale(0);
