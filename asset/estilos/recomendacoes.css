@@ -23,8 +23,9 @@
 }
 .recomendacao .card3 img{
      width: 100%;
-     height: 400px;
      margin: auto;
+     object-fit: cover;
+     position: center center;
 }
 
 .recomendacao .card4{
