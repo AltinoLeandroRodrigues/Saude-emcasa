@@ -1,0 +1,37 @@
+.galeria{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+.galeria .imagen{
+    border: 6px solid #014DAB;
+    width: 30%;
+    overflow: hidden;
+}
+
+
+.galeria .imagen img{
+   object-fit: cover;
+    width: 100%;
+    overflow: hidden;
+    transition: transform 1s;
+}
+
+
+.galeria .imagen img:hover{
+   transform: rotate(10deg) scale(1.5);
+}
+
+
+@media (max-width:700px){
+    .galeria .imagen{
+        border: 6px solid #014DAB;
+        width: 95%;
+        overflow: hidden;
+    }
+}
+ 

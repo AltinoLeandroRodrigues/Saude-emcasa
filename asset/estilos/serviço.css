@@ -39,13 +39,24 @@
     border: 1px solid blue;
     border-radius: 5px;
     padding: 30px;
+    width: 40%;
 }
 .trabalhos ul{
     list-style-type: '✔️';
+    text-indent: 20px;
 }
 .trabalhos ul li{
      text-align: justify;
      margin-top: 20px;
 }
  
+@media (max-width:700px){
+    .trabalhos{
+        background-color: #ddd;
+        border: 1px solid blue;
+        border-radius: 5px;
+        padding: 30px;
+        width: 100%;
+    }
+}
  
