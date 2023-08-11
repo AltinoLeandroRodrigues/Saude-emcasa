@@ -1,12 +1,12 @@
 /* estilização da imagem do paciente */
 main figure{
     width: 100%;
-    height: 500px;
+    height: 800px;
     margin-top: 30px;
 }
 main figure img{
     width: 100%;
-    height: 500px;
+    height: 800px;
     object-fit: cover;
 }
 
