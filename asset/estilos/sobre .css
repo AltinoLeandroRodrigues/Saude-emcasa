@@ -1,0 +1,24 @@
+.nos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.medicos {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ddd;
+    width: 80%;
+}
+
+.medicos h1 {
+    background-color: #014DAB;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px ;
+    color: white;
+}

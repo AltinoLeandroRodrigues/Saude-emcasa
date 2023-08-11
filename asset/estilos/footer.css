@@ -9,9 +9,9 @@ footer{
 }
 footer a{
     color: rgb(11, 194, 11);
-    background-color:#014DAB;
-    padding: 10px;
-    font-size: 40px;
+    /* background-color:#014DAB;
+    padding: 10px; */
+    font-size: 50px;
      position: fixed;
      top: 450px;
      right: 40px;
