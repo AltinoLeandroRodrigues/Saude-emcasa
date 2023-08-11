@@ -67,11 +67,13 @@ nav a:hover {
 header figure {
     width: 150px;
     height: 55px;
+    border-radius: 5%;
 }
 
 header figure img {
     width: 150px;
     height: 55px;
+    border-radius: 5%;
     object-fit: cover;
 }
 
