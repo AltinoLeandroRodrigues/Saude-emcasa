@@ -9,6 +9,16 @@
 .outras .partes{
     width: 25%;
 }
+.outras .partes a{
+    width: 25%;
+    filter: grayscale(100%);
+    transition: 1s ease-in;
+}
+
+.outras .partes a:hover{
+    width: 25%;
+    filter: grayscale(0);
+}
 
 .outras h1{
     color: #014DAB;
