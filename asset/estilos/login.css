@@ -64,6 +64,26 @@ form input{
     color: black;
 }
 
+span.carregar{
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+    display: block;
+    border-radius: 50%;
+    border: 12px solid crimson;
+    border-right: 12px solid transparent;
+    animation: loading 1s ease-in-out infinite ;
+}
+
+@keyframes loading{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
 @media (max-width:700px){
 
     body{
@@ -84,3 +104,4 @@ form input{
         outline: none;
      }
 }
+
