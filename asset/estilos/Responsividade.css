@@ -1,5 +1,5 @@
 /* nav responsividade */
-@media (max-width:800px) {
+@media (max-width:900px) {
     body {
         overflow-x: hidden;
     }
@@ -11,7 +11,7 @@
         align-items: center;
         flex-direction: column;
         right: 0;
-        top: 0px;
+        top: 95px;
         background-color:#014DAB;
         height: 120vh;
         width: 50%;
@@ -23,11 +23,27 @@
         display: block;
         margin-right: 40px;
     }
+
+    #fechar{
+        display: block;
+    }
     
+   
+}
+ 
+#fechar{
+    display: none;
 }
 
 .active {
     transform: translateX(0);
+}
+#menu div{
+    width: 30px;
+    border: 1px solid black;
+    margin-top: 2px;
+    height: 4px;
+    background-color: white;
 }
 
 /* fim nav responsividade */
