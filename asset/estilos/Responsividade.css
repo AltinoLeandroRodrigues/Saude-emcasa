@@ -19,32 +19,20 @@
         transition: transform 0.2s ease-in;
     }
 
-    #btn {
+    #menu{
         display: block;
         margin-right: 40px;
     }
 
-    #fechar{
-        display: block;
-    }
     
-   
 }
- 
-#fechar{
-    display: none;
-}
+    
+
 
 .active {
     transform: translateX(0);
 }
-#menu div{
-    width: 30px;
-    border: 1px solid black;
-    margin-top: 2px;
-    height: 4px;
-    background-color: white;
-}
+
 
 /* fim nav responsividade */
 
