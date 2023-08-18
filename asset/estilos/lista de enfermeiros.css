@@ -1,0 +1,29 @@
+.listaEnfermeiros {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.listaEnfermeiros table {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-collapse: collapse;
+    margin: 30px;
+    gap: 1px;
+}
+
+.listaEnfermeiros table th {
+    color: white;
+    width: 200px;
+    background-color: #014DAB;
+    text-align: center;
+}
+
+.listaEnfermeiros table td {
+    margin-top: 20px;
+    width: 200px;
+    text-align: center;
+    background-color: #ddd;
+}

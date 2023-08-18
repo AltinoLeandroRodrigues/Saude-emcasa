@@ -71,9 +71,12 @@
    margin-top: 50px;
  }
 
- .cards button{
+ .cards a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
    font-size: 20px;
-   width: 50%;
+   width: 30%;
    height: 35px;
    float: right;
    background-color: transparent;
@@ -83,8 +86,10 @@
    transition: transform 1s ease-in;
    cursor: pointer;
    border-radius: 5px;
+   text-decoration: none;
+   color: black;
  }
- .cards button:hover{
+ .cards a:hover{
     background-color: #195bacd6;
     transform: scale(1.2);
     color: white;
