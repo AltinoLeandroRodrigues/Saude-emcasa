@@ -74,6 +74,7 @@ span.carregar{
     border-right: 12px solid transparent;
     animation: loading 1s ease-in-out infinite ;
 }
+ 
 
 @keyframes loading{
     0%{
